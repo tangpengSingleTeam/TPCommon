@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPCommon_Example' do
+  pod 'TPCommon', :path => '../'
+
+  target 'TPCommon_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
