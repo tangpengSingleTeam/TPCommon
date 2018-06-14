@@ -1,0 +1,6 @@
+framework module TPCommon {
+  umbrella header "TPCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}

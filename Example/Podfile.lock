@@ -1,0 +1,16 @@
+PODS:
+  - TPCommon (0.1.0)
+
+DEPENDENCIES:
+  - TPCommon (from `../`)
+
+EXTERNAL SOURCES:
+  TPCommon:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPCommon: 5b2ec3148af0e95ff9ccd0247ee1da6ae0501d31
+
+PODFILE CHECKSUM: 93499cdab18cd17e21a02a2ac713f6d9c30f33f9
+
+COCOAPODS: 1.5.3
