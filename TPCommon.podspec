@@ -1,31 +1,16 @@
-#
-# Be sure to run `pod lib lint TPCommon.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'TPCommon'
   s.version          = '0.1.0'
   s.summary          = 'A short description of TPCommon.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                     this library can provide common file to project
                        DESC
 
-  s.homepage         = 'https://github.com/939329334@qq.com/TPCommon'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/tangpengSingleTeam/TPCommon'
+  s.screenshots     = 'https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike150%2C5%2C5%2C150%2C50/sign=ff6cb0bdb299a9012f3853647cfc611e/0df3d7ca7bcb0a461243e7906163f6246b60af32.jpg'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '939329334@qq.com' => '939329334@qq.com' }
-  s.source           = { :git => 'https://github.com/939329334@qq.com/TPCommon.git', :tag => s.version.to_s }
+  s.author           = { '无敌飞火流星' => '939329334@qq.com' }
+  s.source           = { :git => 'https://github.com/tangpengSingleTeam/TPCommon.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +22,13 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 3.0'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
+  s.dependency 'Reachability'
+  s.dependency 'WMPageController'
+  s.dependency 'YYKit'
+
 end
